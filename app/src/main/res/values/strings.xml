@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OpenWeatherApp</string>
+    <string name="tab_text_1">Favourites</string>
+    <string name="tab_text_2">Search</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favs_text">Your favourites list is empty.</string>
+    <string name="no_results_available">No results available.</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="location_on_maps">Location on Maps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

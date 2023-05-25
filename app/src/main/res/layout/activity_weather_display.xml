@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherDisplayActivity">
+    <LinearLayout
+        android:id="@+id/ll_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/city_text_view"
+            android:layout_marginTop="@dimen/weather_display_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather in ..."
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/temp_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="XX ºC"
+            android:textSize="100sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/icon_image_view"
+                android:layout_width="50sp"
+                android:layout_height="50sp"/>
+            <TextView
+                android:id="@+id/description_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Undefined description"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/feels_like_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Feels like:"/>
+        <TextView
+            android:id="@+id/humidity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Humidity:"/>
+        <TextView
+            android:id="@+id/windspeed_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Wind Speed:"/>
+        <TextView
+            android:id="@+id/min_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Minimum:"/>
+        <TextView
+            android:id="@+id/max_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Maximum:"/>
+        <TextView
+            android:id="@+id/sunrise_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Sunrise:"/>
+        <TextView
+            android:id="@+id/sunset_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Sunset:"/>
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/add_to_fav"
+                android:text="@string/add_to_favourites"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAddToFavClick"/>
+            <Button
+                android:id="@+id/location_on_maps"
+                android:text="@string/location_on_maps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onLocationClick"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
