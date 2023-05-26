@@ -24,6 +24,8 @@ This application was developed by [Alejandro Buján Pampín](mailto:alejandro.bu
 
 If this project is interesting for you, feel free to contribute (for more information see [Future Work](doc/future_work.md)).
 
+[OpenWeather](https://openweather.co.uk/) is a British-based tech company that provides weather and satellite data worldwide. This project is not related to this company, was created with educational purposes (non-profit making) and is not responsible for the use that might be made of it. 
+
 # License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
