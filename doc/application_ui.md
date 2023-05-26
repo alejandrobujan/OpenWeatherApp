@@ -1,9 +1,9 @@
 # Application UI
 
-+  [SplashScreen](doc/splash_screen.md)
-+  [MainActivity](doc/main_activity.md)
-    +  [FavsFragment](doc/favs_fragment.md)
-    +  [SearchFragment](doc/search_fragment.md)
-+ [WeatherDisplayActivity](doc/weather_display_activity.md)
-+ [MapsActivity](doc/maps_activity.md)
-+ [AboutActivity](doc/about_activity.md)
++  [SplashScreen](splash_screen.md)
++  [MainActivity](main_activity.md)
+    +  [FavsFragment](favs_fragment.md)
+    +  [SearchFragment](search_fragment.md)
++ [WeatherDisplayActivity](weather_display_activity.md)
++ [MapsActivity](maps_activity.md)
++ [AboutActivity](about_activity.md)
