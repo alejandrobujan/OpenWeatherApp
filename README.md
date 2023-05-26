@@ -9,14 +9,15 @@ The link to this API is the following one: https://openweathermap.org/api
 ![OpenWeatherApp](doc/img/sample_screens.png)
 
 + [Design Pattern](doc/design_pattern.md)
-+ Application Screens
-   +  [SplashScreen](doc/splashscreen.md)
-   +  [MainActivity](doc/mainactivity.md)
-      +  [FavsFragment](doc/favsfragment.md)
-      +  [SearchFragment](doc/searchfragment.md)
-   + [WeatherDisplayActivity](doc/weatherdisplayactivity.md)
-   + [MapsActivity](doc/mapsactivity.md)
-   + [AboutActivity](doc/aboutactivity.md) 
++ [Application UI](doc/application_ui.md)
+   +  [SplashScreen](doc/splash_screen.md)
+   +  [MainActivity](doc/main_activity.md)
+      +  [FavsFragment](doc/favs_fragment.md)
+      +  [SearchFragment](doc/search_fragment.md)
+   + [WeatherDisplayActivity](doc/weather_display_activity.md)
+   + [MapsActivity](doc/maps_activity.md)
+   + [AboutActivity](doc/about_activity.md)
++ [Future Work](doc/future_work.md)
 
 # Author
 
